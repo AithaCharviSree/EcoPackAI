@@ -214,8 +214,10 @@ def recommend_material():
         # Save to DB
         conn = get_db_connection()
         cur = conn.cursor()
+        import time
 
         for r in results:
+            product_id = int(time.time() * 1000)
             cur.execute("""
                 INSERT INTO recommendations (
                     product_id, material_type, suitability_prob,
@@ -225,7 +227,7 @@ def recommend_material():
                 )
                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
             """, (
-                int(data["product_id"]),
+                product_id,
                 r["material_type"],
                 r["Suitability_Prob"],
                 r["total_cost_inr"],

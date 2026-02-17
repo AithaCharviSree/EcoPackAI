@@ -4,6 +4,10 @@ from urllib.parse import urlparse
 
 def get_db_connection():
     database_url = os.getenv("DATABASE_URL")
+
+    if not database_url:
+        raise Exception("DATABASE_URL not set!")
+
     result = urlparse(database_url)
 
     return psycopg2.connect(
