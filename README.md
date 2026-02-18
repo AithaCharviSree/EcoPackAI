@@ -5,7 +5,6 @@ EcoPackAI is an AI-driven web application that recommends sustainable packaging 
 
 The system uses machine learning models to predict packaging material cost and CO₂ emission impact, then ranks materials using a weighted suitability scoring mechanism.
 
----
 
 ## 🚀 Features
 
@@ -17,7 +16,6 @@ The system uses machine learning models to predict packaging material cost and C
 - Data visualization and analytics  
 - Cloud deployment using Replit  
 
----
 
 ## 🗂️ Datasets Used
 
@@ -44,7 +42,6 @@ Contains product attributes such as:
 - Shelf Life
 - Product Price
 
----
 
 ## 🧠 Machine Learning Models
 
@@ -56,7 +53,6 @@ Evaluation Metrics:
 - Root Mean Squared Error (RMSE)  
 - R² Score  
 
----
 
 ## 🧠 Recommendation Logic
 
@@ -70,7 +66,6 @@ Evaluation Metrics:
 5. Rank materials based on suitability score.  
 6. Display the best recommended packaging material.
 
----
 
 ## 🖥️ Web Interface
 
@@ -79,7 +74,6 @@ Evaluation Metrics:
 - View ranked materials in tabular format
 - Analyze cost and CO₂ comparison through charts
 
----
 
 ## ⚙️ Tech Stack
 
@@ -90,14 +84,12 @@ Data Processing: Pandas, NumPy
 Database: PostgreSQL  
 Deployment: Replit  
 
----
 
 ## 🚀 Live Demo
 
 Replit Deployment Link:  
 (Add your Replit live URL here)
 
----
 
 ## 📁 How to Run the Project Locally
 
@@ -108,13 +100,11 @@ Replit Deployment Link:
    python app.py  
 4. Open the local server link in your browser  
 
----
 
 ## 🌍 Objective
 
 To promote sustainable packaging practices and help businesses make cost-effective and environmentally responsible decisions.
 
----
 
 ## 🔮 Future Enhancements
 
@@ -123,7 +113,6 @@ To promote sustainable packaging practices and help businesses make cost-effecti
 - Industry-specific packaging optimization  
 - Integration with supply chain systems  
 
----
 
 ## 👨‍💻 Developed Under
 
